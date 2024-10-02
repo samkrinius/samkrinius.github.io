@@ -59,12 +59,13 @@ body {
   text-align: center;
 }
 
-/* Menampilkan tombol dalam 2 baris dan 3 kolom */
+/* Menampilkan tombol dalam 3 baris dan 2 kolom */
 .link {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
   gap: 10px; /* Jarak antar tombol */
-  justify-items: center;
+  justify-items: center; /* Rata tengah secara horizontal */
+  align-items: center; /* Rata tengah secara vertikal */
   padding: 20px;
 }
 
