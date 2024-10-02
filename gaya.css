@@ -59,13 +59,16 @@ body {
   text-align: center;
 }
 
+/* Menampilkan tombol dalam 2 baris dan 3 kolom */
 .link {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+  gap: 10px; /* Jarak antar tombol */
+  justify-items: center;
   padding: 20px;
 }
 
+/* Desain tombol */
 .link>a {
   text-decoration: none;
   color: #222;
@@ -74,16 +77,19 @@ body {
   border: 3px solid #222;
   background-color: #eaeaea;
   border-radius: 7px;
-  margin: 5px 10px;
   padding: 10px;
   text-transform: uppercase;
   font-weight: 500;
+  width: 150px;
+  display: block;
+  text-align: center;
 }
 
 .link>a:hover {
   background-color: azure;
 }
 
+/* Footer */
 .footer {
   text-align: center;
 }
