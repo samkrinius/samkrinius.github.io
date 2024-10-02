@@ -1,6 +1,6 @@
-* {
-  margin: 10;
-  padding: 10;
+* { 
+  margin: 0; /* Ganti 10 dengan 0 */
+  padding: 0; /* Ganti 10 dengan 0 */
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 
 body {
   height: 100%;
-  margin: 10;
+  margin: 0; /* Ganti 10 dengan 0 */
   overflow: hidden;
 }
 
@@ -66,24 +66,23 @@ body {
   gap: 10px; /* Jarak antar tombol */
   justify-items: center; /* Rata tengah secara horizontal */
   align-items: center; /* Rata tengah secara vertikal */
-  padding: 20px;
+  padding: 20px 30px; /* Tambahkan padding horizontal */
 }
 
 /* Desain tombol */
 .link>a {
   text-decoration: none;
   color: #222;
-  font-size: 20px;
+  font-size: 16px; /* Ukuran font lebih kecil */
   text-align: center;
   border: 3px solid #222;
   background-color: #eaeaea;
   border-radius: 8px;
-  padding: 10px;
+  padding: 8px; /* Mengurangi padding vertikal tombol */
   text-transform: uppercase;
   font-weight: 500;
-  width: 150px;
+  width: 120px; /* Lebar tombol lebih kecil */
   display: block;
-  text-align: center;
 }
 
 .link>a:hover {
