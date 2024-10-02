@@ -73,15 +73,15 @@ body {
 .link>a {
   text-decoration: none;
   color: #222;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  border: 3px solid #222;
+  border: 2px solid #222;
   background-color: #eaeaea;
   border-radius: 7px;
-  padding: 10px;
+  padding: 8px;
   text-transform: uppercase;
   font-weight: 500;
-  width: 150px;
+  width: 140px;
   display: block;
   text-align: center;
 }
